@@ -2,8 +2,8 @@ import os
 from random import randint
 from datetime import datetime, timedelta
 
-start_date = datetime(2023, 1, 1)  # Starting date in April
-end_date = datetime(2023, 4, 30)    # Ending date in May
+start_date = datetime(2023, 7, 1)  # Starting date in April
+end_date = datetime(2023, 9, 30)    # Ending date in May
 
 for i in range(1, 10):
     for j in range(0, randint(1, 10)):
